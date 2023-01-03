@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(5, 225, 236);
+}
+
+form {
+    width: 30%;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    position: relative;
+    /* top: 0%;
+    transform: translateY(50%); */
+    background-color: rgba(250, 235, 215, 0.566);
+    box-shadow: 3px 3px 5px brown   /*third one (5px is for blurring effect)*/
+    z-index: 2;
+}
+
+.next-line {
+    display: block;
+    margin: 1px;
+    width: 100%;
+}
+
+.box1, .box2 {
+    background: linear-gradient(to top right, rgba(3, 207, 253, 0.308), rgba(14, 40, 239, 0.419));
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+}
+
+.box1 {
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+}
+
+.box2 {
+    position: absolute;
+    bottom: 3rem;
+    right: 3rem;
+}
+
+.more-padding {
+    padding: 20px;
+    /* font-size: 2rem; */
+}
+
+.signup {
+    height: 30px;
+    background-color: rgb(3, 92, 247);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    margin-top: 10px;
+}
+
+.signup:hover {
+    background-color: rgb(6, 58, 190);
+    color: white;
+}
+
+.foot {
+    text-align: center;
+    margin: 5px auto;
+}
